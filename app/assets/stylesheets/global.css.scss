@@ -1,6 +1,6 @@
 $dark_gray: #2B2E2E;
 $light_gray: #C0C1C1;
-$green: #529ECC;
+$green: #223954;
 
 @mixin bold_font {
   font-family: 'Dosis', sans-serif;
@@ -69,7 +69,7 @@ a {
 // HEADER STYLING
 
 header {
-	background: #529ECC;
+	background: #223954;
 	position: absolute;
 	top: 0;
 	width: 100%;
@@ -103,10 +103,19 @@ header {
 	}
 }
 
+p.notice {
+  margin-top: 25px;
+  color: green;
+}
+
+p.alert {
+  color: red;
+}
+
 // FOOTER STYLING (OPTIONAL)
 
 footer {
-	background: #529ECC;
+	background: #223954;
 	width: 100%;
 	padding: 2rem 0;
 	color: white;
